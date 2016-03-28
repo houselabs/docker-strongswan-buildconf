@@ -7,6 +7,7 @@ docker run -i -v /data/strongswan:/data \
   -e VPN_PSK=sdasdas \
   -e VPN_USERNAME=ohsc \
   -e VPN_PASSWORD=pppsssswwwddd \
+  -e VPN_P12_PASSWORD=lock \
   houselabs/strongswan-buildconf
 ```
 
