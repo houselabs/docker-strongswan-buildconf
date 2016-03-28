@@ -10,4 +10,4 @@ docker run -i -v /data/strongswan:/data \
   houselabs/strongswan-buildconf
 ```
 
-Certs for client are generated in /data/strongswan/ssl
+Certs and mobileconfig for client are generated in /data/strongswan/ssl

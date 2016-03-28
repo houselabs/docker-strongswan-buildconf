@@ -11,6 +11,7 @@ ENV VPN_DNS 192.168.1.1
 ENV VPN_PSK yourrpresharedkeyhere
 ENV VPN_USERNAME username
 ENV VPN_PASSWORD yourpasswordhere
+ENV VPN_P12_PASSWORD yourpasswordhere
 
 ENTRYPOINT ["/init.sh"]
 
