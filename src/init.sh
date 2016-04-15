@@ -12,6 +12,8 @@ fi
 cp -r /etc/strongswan.* $OUT
 cp -r /etc/ipsec.* $OUT
 cp -r /usr/local/share/buildconf/* $SSL
+mkdir -p $OUT/strongswan/log/
+touch $OUT/strongswan/log/charon.log
 sed -i "s#VPN_SUBNET#${VPN_SUBNET}#g" $OUT/ipsec.conf
 sed -i "s#VPN_DOMAIN#${VPN_DOMAIN}#g" $OUT/ipsec.conf
 sed -i "s#VPN_PSK#${VPN_PSK}#g" $OUT/ipsec.secrets
