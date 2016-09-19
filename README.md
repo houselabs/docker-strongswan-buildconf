@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/version/houselabs/strongswan-buildconf.svg)](https://microbadger.com/images/houselabs/strongswan-buildconf "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/houselabs/strongswan-buildconf.svg)](https://microbadger.com/images/houselabs/strongswan-buildconf "Get your own image badge on microbadger.com") 
+
 ## Usage
 ```bash
 docker run -i -v /data/strongswan:/data \
